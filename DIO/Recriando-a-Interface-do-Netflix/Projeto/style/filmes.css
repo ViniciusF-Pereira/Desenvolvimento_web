@@ -1,0 +1,27 @@
+    .btnProximo {
+        height: 18vh;
+        width: 100px;
+        margin-left: 2vh;
+        font-size: 14vh;
+        text-align: justify;
+        margin-top: 2vh;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-top-left-radius: 20%;
+        border-bottom-left-radius: 10%;
+        border-top-right-radius: 20%;
+        border-bottom-right-radius: 50%;
+        opacity: 0.6;
+    }
+    
+    .DivbtnProximo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .btnProximo:hover {
+        cursor: pointer;
+        opacity: 1;
+    }
