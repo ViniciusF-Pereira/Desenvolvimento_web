@@ -1,0 +1,43 @@
+O que é, Sintaxe e Map vs forEach
+
+		MAP
+
+	MAP é um conjunto que se passa por uma operação e se torna outro conjunto
+
+	1			2
+	2	> y= f(x)	4
+	3	    y= 2x	6
+      SET A		      SET B
+	Domain			Range
+
+
+* CRIA UM NOVO ARRAY
+* NÃO MODIFICA O ARRAY ORIGINAL
+* REALIZA AS OPERAÇÕES EM ORDEM
+
+	SINTAXE
+
+array.map(callback, thisArg)
+	callback(item, index, array)
+
+callback: Função a ser executada em cada elemento
+thisArg(Opcional): valor de 'this' dentro da função de callback
+
+
+	Map vs forEach
+
+
+	// USANDO MAP
+
+const array = [1,2,3,4,5];
+array.map((item) => item *2);
+
+// retorno: [2,4,6,8,10];
+
+
+	// USANDO FOREACH
+
+const array = [1,2,3,4,5];
+array.forEach((item) => item * 2);
+
+// retorno undefined

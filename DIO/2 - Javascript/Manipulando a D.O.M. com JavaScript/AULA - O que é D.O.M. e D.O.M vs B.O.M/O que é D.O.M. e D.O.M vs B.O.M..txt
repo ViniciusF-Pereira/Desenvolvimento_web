@@ -1,0 +1,13 @@
+//		DOM
+
+	DOCUMENT OBJECT MODEL
+
+	O DOM HTML é um padrão de como acessar e modificar os elementos HTML de uma página.
+
+//		BOM
+
+	BROWSER OBJECT MODEL
+
+	Tudo o queestá dentro do objeto window.
+	( incluindo o proprio DOM ).
+

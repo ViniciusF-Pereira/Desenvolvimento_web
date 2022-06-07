@@ -1,0 +1,43 @@
+
+
+	PARADIGMAS
+/--------------------------------/
+	IMPERATIVA		
+		*PROCEDURAL			
+		*OBJETO ORIENTADO	
+		*PROCESSAMENTO PARARELO
+
+	DECLARATIVA
+		*LOGICA
+		*BANCO DE DADOS
+			FUNCIONAL
+				*DATAFLOW
+
+Os programa são "objetos",que possuem uma serie	de propriedades.
+
+Pilares (4)
+-	Herança
+-	Polimorfismo
+-	Encapsulamento
+-	Abstração
+
+
+	1) Abstração
+
+"Processo mental que consiste em insolar um aspecto determinado de um estado de coisas relativamente complexo, a fim de simplificar a sua avaliação, classificação ou para permitir a comunicação do mesmo"
+
+	E especifica algo, simplifica e generaliza cada vez mais
+
+
+	2) Herança
+
+O objeto filho herda propriedades e métodos do objeto pai.
+
+	3)Encapsulamento
+
+Cada classe tem propriedades e métodos idependentes do restante do código
+
+	4)Polimorfismo
+
+Objetos podem herdar a mesma classe pai, mas se comportarem de forma diferente quando invocamos seus métodos.
+

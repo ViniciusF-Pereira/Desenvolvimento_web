@@ -1,0 +1,21 @@
+Filter e Sintaxe
+
+Oque é o método Filter
+
+	* cria um novo array
+	* não modifica o array original
+
+---	Sintaxe
+
+	array.filter(callback, thisArg)
+
+callback: Função a ser executada em cada elemento
+thisArg(Opcional): valor de 'this' dentro da função .
+
+	const frutas ['maçã fuji', 'maçã verde', 'laranja', 'abacaxi'];
+
+frutas.filter((fruta) => fruta.includes('maçã'))
+
+// retorno ['maçã fuji', 'maçã verde'];
+
+

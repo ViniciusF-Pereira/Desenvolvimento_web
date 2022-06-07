@@ -1,0 +1,25 @@
+Reduce e Sintaxe
+
+	O que é o reduce
+
+* Executa uma função em todos os elementos do array e retorna um valor único.
+
+--	Sintaxe
+
+	array.reduce(callbackFn, initialValue)
+
+Callback: função a ser executada a partir do acumulador.
+InitialValue(opcional): Valor sobre qual o retorno final irá atuar.
+
+
+	//--------------/-------------//
+
+	const callbackfn - function(accumulator, currentValue, index, array) { }
+
+	array.reduce(callbackFn, initialValue)
+
+
+Acummulator/preValue: Acumulador de todas as chamades de callbackFn.
+
+currentValue: elemento atual sendo acessado pela função.
+

@@ -1,0 +1,30 @@
+	Estruturas de Dados
+
+Javascript é uma linguagem de tipagem dinâmica.
+	ou seja, antes de declarar um valor, voce não precisa especificar o tipo dele.
+
+//		STRINGS
+
+* Comumente utilizada para textos.
+* Valores declarados entre aspas ou crases
+	"texto"   'texto'  `texto`
+
+com `` se pode concatenar com ${VARIAVEL}
+já "" ou '', somente pode com +(VARIAVEL)+
+
+
+	typeOf em String = objeto, string = string.
+
+
+//	Metodos importantes
+
+* Concatenação
+* Propriedades length
+* Iterabilidade
+
+
+//		BOOLEANS
+
+	BOOLEANS É TRUE OU FALSE
+	VALIDAÇÃO
+
