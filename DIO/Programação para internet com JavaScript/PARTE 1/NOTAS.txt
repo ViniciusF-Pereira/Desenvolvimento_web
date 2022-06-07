@@ -1,0 +1,10 @@
+			DOM
+	-->	DOCUMENT OBJECT MODEL
+		MODELO DE ARVORES
+	* JAVASCRITP PODE ALTERAR ELEMENTOS DO HTML
+		Altera tudo do html,posso mudar as tags e etc.
+
+	*JAVASCRIPT PODE ALTERAR TODOS OS ATRIBUTOS E ESTILOS DE CSS DE UMA PAGINA
+		Altera tudo do css da pagina
+
+	ao que parecer esse DOM aonde o javascript pode fazer alteração de tudo caso um valor input do html seja X, ele pode alterar o Html, e o CSS da pagina assim podendo ter X versões de N valores para Y situações, caramba, javascritp é muito FORTE.

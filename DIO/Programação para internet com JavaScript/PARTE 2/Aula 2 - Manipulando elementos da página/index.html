@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Manipulando elementos da página</title>
+</head>
+<body>
+
+
+<div class="flex">   
+    <div class="item"><button type="button" onclick="clicou()"> Clique Aqui</button></div>
+    <div class="item"><button type="button" onclick="redirecionar()"> Clique Aqui</button></div>
+
+
+<p id="agradecimento"></p>
+</div>
+
+<div class="flex">
+    <div class="azul" onmouseover="trocaClasseAzul()">
+        COR
+    </div>
+    <div class="verde" onmouseover="trocaClasseVerde()">
+        COR
+    </div>  
+    <div class="branca" onmouseover="trocaClasseBranca()">
+        COR
+    </div> 
+</div>
+<div id="caixa">
+    
+
+</div>
+</body>
+<script src="Manipulando elementos da página.js" ></script>
+
+
+<style>
+
+
+    #caixa{
+        height: 220px;
+        width: 220px;
+        display: flex;   
+        border: 2px solid black;
+       
+        }
+     .flex{
+            max-width: 200px;
+            padding: 10px;
+            border: 2px solid black;
+            text-align: center;
+            
+        }
+        .item{
+            border: 2px solid black;
+            background-color: rgb(134, 226, 28);
+            margin: 2px;
+        }
+
+        .azul{
+            border: 2px solid black;
+            background-color: rgb(28, 153, 226);
+            margin: 2px;
+        }
+        .verde{
+            border: 2px solid black;
+            background-color: rgb(8, 255, 62);
+            margin: 2px;
+        }
+        .branca{
+            border: 2px solid black;
+            background-color: rgb(221, 221, 221);
+            margin: 2px;
+
+        }
+        
+</style>
+</html>

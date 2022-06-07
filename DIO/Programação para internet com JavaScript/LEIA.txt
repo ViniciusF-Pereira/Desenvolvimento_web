@@ -1,0 +1,8 @@
+function AdicionaClasse() {
+
+    let classes = document.getElementById('Id_da_tag');
+    classes.classList.remove('ClasseVelha');
+    classes.classList.add('ClasseNova');
+
+}
+   
