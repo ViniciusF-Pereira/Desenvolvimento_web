@@ -1,0 +1,87 @@
+:root {
+    --altura: 30vh;
+    --largura: 30vh;
+    --pading_teste: -10vh;
+}
+
+.btn__iniciar .btn__iniciar--iniciar .btn__iniciar--AGUARDE {
+    width: 400px;
+    height: 400px;
+}
+
+.btn__iniciar .btn__iniciar--iniciar {
+    font-size: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn__iniciar {
+    display: flex;
+    position: absolute;
+    background-color: chartreuse;
+    width: calc(var(--altura)/1.3);
+    height: calc(var(--altura)/1.3);
+    border-radius: 100%;
+    top: 0;
+    bottom: 60%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+
+.btn__iniciar:hover {
+    cursor: pointer;
+}
+
+.contador__default--on {
+    display: flex;
+    width: var(--largura);
+    height: var(--altura);
+    background-color: rgb(180, 224, 59);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+    border-radius: 100%;
+}
+
+.contador__default {
+    width: var(--largura);
+    height: var(--altura);
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
+
+.contador__default--ativo {
+    width: var(--largura);
+    height: var(--altura);
+    background-color: rgb(120, 184, 192);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 300%;
+}
