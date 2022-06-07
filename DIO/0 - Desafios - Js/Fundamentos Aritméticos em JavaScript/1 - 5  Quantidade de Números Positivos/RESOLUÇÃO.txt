@@ -1,0 +1,16 @@
+// a função gets é implementada dentro do sistema para ler as entradas(inputs) dos dados e a função print para imprimir a saída (output) de dados e já pula uma linha ("\n")
+// Abaixo segue um exemplo de código que você pode ou não utilizar
+
+
+valores = Array(6); // aqui eu defino que vai ter 6 valores nesse array.
+valores[0] = gets(); // da pra ver aqui, eu criando os valores, adicioando eles no caso.
+valores[1] = gets();
+valores[2] = gets();
+valores[3] = gets();
+valores[4] = gets();
+valores[5] = gets();
+
+positivos = valores.filter(value => value > 0); // esse aqui vai contar, quantos valores tem, ou filtrar
+// acima do valor 0.
+
+console.log(positivos.length + " valores positivos");

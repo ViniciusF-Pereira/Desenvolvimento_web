@@ -1,0 +1,14 @@
+let Notas = parseInt(gets());
+let matricula;
+
+let line, max = 0
+
+for (let i = 0; i < Notas; i++) {
+    line = gets().split(" ");
+  if (parseFloat(line[1]) >= max && parseFloat(line[1]) >= 8) {
+    max = parseFloat(line[1]);
+    matricula = parseInt(line[0]);
+  } 
+}
+
+console.log(matricula ? matricula :"Minimum note not reached" )

@@ -1,0 +1,2 @@
+console.log(`NUMBER = ${+gets(25)}`)
+console.log(`SALARY = U$ ${(+gets(100) * +gets(5,50)).toFixed(2)}`);

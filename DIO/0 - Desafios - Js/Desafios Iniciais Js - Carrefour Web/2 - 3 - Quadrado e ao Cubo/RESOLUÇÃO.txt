@@ -1,0 +1,9 @@
+
+let linhas = gets();
+
+for (let i = 1; i <= linhas; i++) {
+  let X =(   i * i   );
+  let Y = ( i * X    );
+
+  console.log( i ,X, Y );
+}

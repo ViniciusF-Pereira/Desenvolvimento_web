@@ -1,0 +1,8 @@
+let x = parseInt(gets());
+let y = parseFloat(gets());
+let z = x/y;
+
+// TODO Realize o cálculo do consumo médio do automóvel.
+const consumoMedio = z;
+
+console.log(`${consumoMedio.toFixed(3)} km/l`); // so dividi o valor kkkkkkkkk tava mt simples

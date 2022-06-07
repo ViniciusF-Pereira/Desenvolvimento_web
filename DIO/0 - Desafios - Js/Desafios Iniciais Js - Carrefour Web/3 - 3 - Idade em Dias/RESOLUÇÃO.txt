@@ -1,0 +1,15 @@
+let totalDeDias = gets(400);
+
+
+let qtdAnos = Math.floor(totalDeDias/365);
+
+totalDeDias = totalDeDias%365;
+    
+let qtdMeses = Math.floor(totalDeDias/30);
+
+totalDeDias = totalDeDias%30;
+
+let resultado = (qtdAnos + " ano(s) " + '\n' + 
+qtdMeses +" mes(es)" + '\n' +
+totalDeDias + " dia(s)");
+print(resultado);

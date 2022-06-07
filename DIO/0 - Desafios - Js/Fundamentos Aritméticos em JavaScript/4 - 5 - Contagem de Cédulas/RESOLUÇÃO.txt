@@ -1,0 +1,25 @@
+let valor = parseInt(gets());
+let resto;
+
+let no100 = parseInt(valor / 100); 
+resto = valor % 100; // pega o valor da divisão e junta no resto
+let no50 = parseInt(resto / 50);
+resto %= 50; // ja agora tudo vai ser o resto da divisão ---> resto e depois e divido de novo.
+let no20 = parseInt(resto / 20);
+resto %= 20;
+let no10 = parseInt(resto / 10);
+resto %= 10;
+let no5 = parseInt(resto / 5);
+resto %= 5;
+let no2 = parseInt(resto / 2);
+resto %= 2;
+let no1 = resto;
+
+console.log(valor + "\n" +
+            no100 + " nota(s) de R$ 100,00\n" +
+            no50 + " nota(s) de R$ 50,00\n" +
+            no20 + " nota(s) de R$ 20,00\n" +
+            no10 + " nota(s) de R$ 10,00\n" +
+            no5 + " nota(s) de R$ 5,00\n" +
+            no2 + " nota(s) de R$ 2,00\n" +
+            no1 + " nota(s) de R$ 1,00");

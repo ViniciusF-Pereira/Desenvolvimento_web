@@ -1,0 +1,16 @@
+let numero = gets();
+var ho = "";
+
+function hohos() {
+    for (var i = 0; i < numero - 1; i++) {
+        if (i != numero) {
+            ho += "Ho ";
+        }
+
+    }
+    ho += "Ho!";
+
+    console.log(ho);
+}
+
+hohos();

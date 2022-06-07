@@ -1,0 +1,9 @@
+// Valor informado pelo usuário "N"
+let n = parseInt(gets());
+
+// TODO Inclua a condição de parada adequada. 
+// Dica: note que o contador "i" é incrementado de 2 em 2 (sempre indo para o próximo par).
+for (let i = 2; i < (n + 1 ) ; i+=2) { // aqui eu só peguei o valor de entrada e somei +1 pra rodar no loop
+  console.log(i);
+  }
+  
