@@ -1,0 +1,58 @@
+Assincrono
+	' que nao ocorre ou nao se efetiva ao mesmo tempo'
+ex: o aprenzidao online = ver as aulas no momento que pode no seu tempo.
+	
+Promises
+	é inicialmente, seu valor é desconhecido, ela pode, então, ser resolvida ou rejeitada
+ex: marcar de ver um filme, comprar o ingresso e no dia dar ou não certo, voce nao sabe o valor exato da situação, mas vai saber no dia.
+	
+	Promise
+1) peding	2) fulfilled	3) reject
+
+const myPromise = new Promise((resolve, reject) => {
+	window.setTimeout(() => {
+		resolve(console.log('Resolvida!'));
+	}, 2000);
+});
+
+// ---------------------------------------------------------------------
+async function resolvePromise() {
+    const myPromise = new Promise((resolve, reject) => {
+        window.setTimeout(() => {
+            resolve(console.log('Resolvida!'));
+        }, 3000);
+    });
+
+
+    const resolved = await myPromise
+        .then((result) => result + ' passando pelo then')
+        .then((result) => result + ' e agora acabou!')
+        .catch((err) => console.log(err.message))
+    return resolved;
+
+}
+
+//-------------------------------------------------------------------
+
+async function resolvePromise() {
+    const myPromise = new Promise((resolve, reject) => {
+        window.setTimeout(() => {
+            resolve(console.log('Resolvida!'));
+        }, 3000);
+    });
+
+
+   let result;
+		try {
+		result = await myPromise
+			.then((result) => result + ' passando pelo then')
+        	.then((result) => result + ' e agora acabou!')
+		}
+		catch(err){
+			result = err.message;
+		}
+		return result;
+
+		
+
+}

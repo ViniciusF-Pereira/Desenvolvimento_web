@@ -1,0 +1,76 @@
+//--------	ESTRUTURA
+
+	DEFINIÇÃO COMUM DE UMA FUNÇÃO
+
+	VARIAVEIS CRIADAS DENTRO DE UMA FUNÇÃO APENAS PODEM SER ULTILIZADAS DENTRO DELA.
+
+
+function nome(parametros) {  
+	// instruções
+}
+
+	QUANDO INVOCAMOS O "return", a função para de ser executada.
+	
+function nome(parametros) {  
+	// instruções
+	return;
+}
+
+//------	Função Anônima
+
+	UMA VARIAVEL PODE AMAZENAR UMA FUNÇÃO.
+
+
+cost soma = function (a, b) {
+	retunr a+b;
+}
+
+	soma(1,2) // 3
+	soma(5,4) // 9
+
+
+//-------	Função Autoinvocavel
+
+	IIFE ( Immediately Invoked Function Expression)
+
+	UMA FUNÇÃO ANONIMA ENTRE PARENTESES, SEGUIDA POR OUTRO PAR DE PARANTESES,QUE REPRESENTA SUA CHAMADA.
+
+(
+	function(){
+	let name = "Vinicius"
+	return name;
+}
+)();
+
+// Vinicius
+
+	TAMBEM PODE SER ULTILIZADA COM OUTRO PARAMETROS OU ARMAZENADA EM UMA VARIAVEL.
+
+
+
+( function (a, b) {
+	retunr a+b;
+}
+)(1,2);
+	// 3
+
+//-----------------------------
+
+
+
+cost soma = (
+	function () {
+	retunr a+b;
+}
+)(1,2);
+
+console.log(soma) // 3
+
+
+//-----------	Callbacks
+	
+	Uma função passada como arumento para outra.	
+
+	Utilizando callbacks, voce maior controle das ordem de chamadas.
+
+
