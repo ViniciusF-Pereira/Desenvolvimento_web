@@ -1,59 +1,63 @@
-// 1 - numebers
+console.log("//----------------------------------------------------------------");
+console.log("//                     1 - numbers");
+console.log("//________________________________________________________________");
+    // 1 - numbers
 
+var x = 10;
+var y = 25;
+var z = 15.8885;
+console.log(x);
+console.log(x + y);
+console.log(z.toPrecision(2));
 
-let x: number = 10
-let y: number = 25
+console.log("//----------------------------------------------------------------")
+console.log("//                     2 - string    ")
+console.log("//________________________________________________________________")
+    // 2 - string
 
-const z: number = 15.8885
-console.log(x)
+let fullname;
+const firstname = "vinicius";
+const lasttname = "freitas";
 
-console.log(x + y)
+console.log(firstname.toUpperCase());
 
-console.log(z.toPrecision(2))
+fullname = firstname + " " + lasttname;
 
-// 2 - string
+console.log(fullname.toUpperCase());
+console.log(typeof(fullname));
 
-let fullname:string
+console.log("//----------------------------------------------------------------")
+console.log("//                  3 - bolean")
+console.log("//________________________________________________________________")
+    // 3 - bolean
 
-const firstname: string = "vinicius"
-const lasttname: string = "freitas"
+let a = false;
 
+console.log(a);
+console.log(typeof a);
 
-console.log(firstname.toUpperCase())
+a = true;
 
-fullname = firstname + " " + lasttname
+console.log(a);
 
-console.log(fullname.toUpperCase())
+console.log("//----------------------------------------------------------------")
+console.log("//                 4 - Inference e anotation   ")
+console.log("//________________________________________________________________")
+    // 4 - Inference e anotation
 
-console.log(typeof(fullname))
+let ann = "teste";
+let inf = "teste";
 
-
-// 3 - bolean
-
-let a:boolean = false
-
-console.log(a)
-console.log(typeof a)
-
-a = true
-
-
-console.log(a)
-
-
-// 4 - Inference e anotation
-
-let ann: string = "teste"
-let inf = "teste"
 //an = 1
 //inf = 1 
 
-console.log(inf)
+console.log(inf);
 
 var counter = 0;
 var timer = setInterval(function() {
     if (counter >= 101) {
         clearInterval(timer);
     }
-      console.log(counter++);
-}, 450)
+    console.log(counter++);
+}, 450);
+
