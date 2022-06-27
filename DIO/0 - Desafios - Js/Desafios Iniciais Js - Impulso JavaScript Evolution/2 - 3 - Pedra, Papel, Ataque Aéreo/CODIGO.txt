@@ -1,0 +1,30 @@
+let N = parseInt(gets());
+
+let jogador1, jogador2;
+
+for (let i = 0; i < N; i++) {
+
+   jogador1 = gets();
+
+   jogador2 = gets();
+  
+   var A = "ATAQUE";
+   var P = "PAPEL";
+
+//TODO: Complete os espaços em branco com uma possível solução para o desafio
+
+ if     (jogador1.toUpperCase() === A && jogador2.toUpperCase() === A ) print("Aniquilacao mutua");
+
+ else if (jogador1.toUpperCase() === P && jogador2.toUpperCase() ===  P ) print("Ambos venceram");
+
+ else if (jogador1.toUpperCase() === A ) print("Jogador 1 venceu");
+
+ else if (jogador2.toUpperCase() === A ) print("Jogador 2 venceu");
+
+ else if (jogador1.toUpperCase() === P ) print ("Jogador 2 venceu");
+ 
+ else if (jogador2.toUpperCase() === P ) print ("Jogador 1 venceu");
+
+ else print("Sem ganhador");
+
+}

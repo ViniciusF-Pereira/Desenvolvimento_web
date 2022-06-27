@@ -1,0 +1,14 @@
+let Patinhos = gets();
+
+
+while (Patinhos != -1){
+    if( Patinhos > 0){
+    console.log(Patinhos - 1 );
+    
+      
+    }else {
+      console.log(0);
+    }
+  
+    Patinhos = gets()
+}
